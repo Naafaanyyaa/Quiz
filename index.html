@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- main text style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-image" src="img/Logo.png">
+        </div>
+        <div class="header__container">
+            <nav class="header__menu">
+                <div class="header__allQuizzes  button"> <a href="#">All quizzes</a></div>
+                <div class="header__userQuizzes button"> <a href="#">My quizzes</a></div>
+                <div class="header__collection  button"> <a href="#">My collection</a></div>
+                <div class="header__friends     button"> <a href="#">Friends</a></div>
+            </nav>
+        </div>
+        <div class="header__profile">
+            <div class="header__search-box">
+                <input type="text" placeholder="search...">
+                <a href="#" class="header__icon fa-solid fa-magnifying-glass"></a>
+            </div>
+            <div class="header__user">
+                <div class="header__logIn">
+                    <a href="#" class="header__user-profile text-size-20">
+                        Sign In
+                    </a>
+                </div>
+                <!-- <a class="header__user-profile" href="#">
+                    <div class="header__image-container">
+                        <img class="header__user-image" src="img/users-vector-icon-png_260862.jpg">
+                    </div>
+                    <div class="header__user-name"><p class="header__nickname">ZNK33</p></div>
+                </a> -->
+            </div>
+            <div class="header__menu-icon">
+                <i class="fa-solid fa-bars text-size-20"></i>
+            </div>
+        </div>
+    </header>
+
+    
+
+
+    <main class="main">
+        <div class="main__container">        <!--ЛЕНИВАЯ ЗАГРУЗКА ВСЕ ПОРТИТ -->
+            <div class="main__slider-container">
+                <div class="main__top-container">
+                    <div class="main__slider-title"><h2>Title of the quiz collection</h2></div>
+                    <div class="main__arrows"></div>
+                </div>
+                
+                <div class="main__slider">
+                    <div class="main__item">
+                        <img data-lazy="img/quiz_item.jpg" class="main__picture" alt="">
+                        <div class="main__card-content">
+                            <div class="main__item-text">
+                                <h3 class="main__card-title">The quiz</h3>
+                                <span class="main__card-subtitle">1 hour ago</span>
+                            </div>
+                            <div class="main__button-container">
+                                <a href="#" class="main__button language__button">
+                                    <button id = "en" class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img data-lazy="img/quiz_item.jpg" class="main__picture" alt="">
+                        <div class="main__card-content">
+                            <div class="main__item-text">
+                                <h3 class="main__card-title">The quiz</h3>
+                                <span class="main__card-subtitle">1 hour ago</span>
+                            </div>
+                            <div class="main__button-container">
+                                <a href="#" class="main__button language__button">
+                                    <button id = "en" class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img data-lazy="img/quiz_item.jpg" class="main__picture" alt="">
+                        <div class="main__card-content">
+                            <div class="main__item-text">
+                                <h3 class="main__card-title">The quiz</h3>
+                                <span class="main__card-subtitle">1 hour ago</span>
+                            </div>
+                            <div class="main__button-container">
+                                <a href="#" class="main__button language__button">
+                                    <button id = "en" class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img data-lazy="img/quiz_item.jpg" class="main__picture" alt="">
+                        <div class="main__card-content">
+                            <div class="main__item-text">
+                                <h3 class="main__card-title">The quiz</h3>
+                                <span class="main__card-subtitle">1 hour ago</span>
+                            </div>
+                            <div class="main__button-container">
+                                <a href="#" class="main__button language__button">
+                                    <button id = "en" class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img data-lazy="img/quiz_item.jpg" class="main__picture" alt="">
+                        <div class="main__card-content">
+                            <div class="main__item-text">
+                                <h3 class="main__card-title">The quiz</h3>
+                                <span class="main__card-subtitle">1 hour ago</span>
+                            </div>
+                            <div class="main__button-container">
+                                <a href="#" class="main__button language__button">
+                                    <button id = "en" class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img data-lazy="img/quiz_item.jpg" class="main__picture" alt="">
+                        <div class="main__card-content">
+                            <div class="main__item-text">
+                                <h3 class="main__card-title">The quiz</h3>
+                                <span class="main__card-subtitle">1 hour ago</span>
+                            </div>
+                            <div class="main__button-container">
+                                <a href="#" class="main__button language__button">
+                                    <button id = "en" class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__item">
+                        <img data-lazy="img/quiz_item.jpg" class="main__picture" alt="">
+                        <div class="main__card-content">
+                            <div class="main__item-text">
+                                <h3 class="main__card-title">The quiz</h3>
+                                <span class="main__card-subtitle">1 hour ago</span>
+                            </div>
+                            <div class="main__button-container">
+                                <a href="#" class="main__button language__button">
+                                    <button id = "en" class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- burger -->
+    <div class="navigation-menu">
+        <nav class="navigation-menu__container">
+            <div class="navigation-menu__account     button"> <a href="#">Account ZNK33</a></div>
+            <div class="navigation-menu__allQuizzes  button"> <a href="#">All quizzes</a></div>
+            <div class="navigation-menu__userQuizzes button"> <a href="#">My quizzes</a></div>
+            <div class="navigation-menu__collection  button"> <a href="#">My collection</a></div>
+            <div class="navigation-menu__friends     button"> <a href="#">Friends</a></div>
+        </nav>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__services">
+                <div class="footer__support white-text fa-solid fa-headset">Support</div>
+                <div id="languageForm" class="footer__localization white-text fa-solid fa-language">Change language</div>
+                <div class="footer__gifts white-text fa-solid fa-gifts">Gifts</div>
+            </div>
+            <div class="footer__contacts">
+                <div class="footer__network">
+                    <a href="#" class="icon footer__instagram fa-brands fa-instagram"></a>
+                    <a href="#" class="icon footer__twitter fa-brands fa-twitter"></a>
+                    <a href="#" class="icon footer__github fa-brands fa-github"></a>
+                </div>
+                <div class="footer__mobile text-size-12"><span class="fa-solid fa-phone phone"></span>Our contact number: +38(050)-011-1652</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- window for changing language -->
+    <div class="overlay_popup-hidden" id="overlay_popup-hidden"></div>
+    <div class="language-hidden" id="language">
+        <div class="language__title text-size-20">CHOOSE YOUR LANGUAGE</div>
+        <div class="language__container">
+            <div class="language__button">
+                <button id = "ukr" class="language__item"><svg><rect></rect></svg>Українська</button>
+            </div>
+            <div class="language__button">
+                <button id = "en" class="language__item"><svg><rect></rect></svg>English</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/language.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/burger.js"></script>
+</body>
+</html>

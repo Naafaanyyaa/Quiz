@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz #1</title>
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- main text style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-image" src="img/Logo.png">
+        </div>
+        <div class="header__container">
+            <nav class="header__menu">
+                <div class="header__allQuizzes  button"> <a href="#">All quizzes</a></div>
+                <div class="header__userQuizzes button"> <a href="#">My quizzes</a></div>
+                <div class="header__collection  button"> <a href="#">My collection</a></div>
+                <div class="header__friends     button"> <a href="#">Friends</a></div>
+            </nav>
+        </div>
+        <div class="header__profile">
+            <div class="header__search-box">
+                <input type="text" placeholder="search...">
+                <a href="#" class="header__icon fa-solid fa-magnifying-glass"></a>
+            </div>
+            <div class="header__user">
+                <a class="header__user-profile" href="#">
+                    <div class="header__image-container">
+                        <img class="header__user-image" src="img/users-vector-icon-png_260862.jpg">
+                    </div>
+                    <div class="header__user-name"><p class="header__nickname">ZNK33</p></div>
+                </a>
+            </div>
+            <div class="header__menu-icon">
+                <i class="fa-solid fa-bars text-size-20"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="main">
+        <div class="main__container">
+            <div class="main__quiz-info">
+                <div class="main__quiz-title"><h2>Quiz title</h2></div>
+                <div class="main__container-line"></div>
+                <div class="main__block-container">
+                     <div class="main__block-content">
+                         <div class="main__block">
+                             <div class="main__block-number text-size-32">5</div>
+                             <div class="main__block-description">LOCATIONS</div>
+                         </div>
+                         <div class="main__block">
+                             <div class="main__block-number text-size-32">1</div>
+                             <div class="main__block-description">QUESTIONS</div>
+                         </div>
+                         <div class="main__block">
+                             <div class="main__block-number text-size-32">2</div>
+                             <div class="main__block-description">CONTENT SLIDES</div>
+                         </div>
+                     </div>
+                     <div class="main__block-info">
+                         <div class="main__block-info-rounds text-size-14 fa-solid fa-trophy">10 ROUNDS</div>
+                         <div class="main__block-info-time text-size-14 fa-solid fa-clock-rotate-left">17 MIN, 30 SEC</div>
+                     </div>
+                </div>
+                <div class="main__container-line"></div>
+            </div>
+            <div class="main__button-play">
+                <a href="#" class="main__button language__button">
+                    <button class="main__button language__item"><svg><rect></rect></svg>Play</button>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- burger -->
+    <div class="navigation-menu">
+        <nav class="navigation-menu__container">
+            <div class="navigation-menu__account     button"> <a href="#">Account ZNK33</a></div>
+            <div class="navigation-menu__allQuizzes  button"> <a href="#">All quizzes</a></div>
+            <div class="navigation-menu__userQuizzes button"> <a href="#">My quizzes</a></div>
+            <div class="navigation-menu__collection  button"> <a href="#">My collection</a></div>
+            <div class="navigation-menu__friends     button"> <a href="#">Friends</a></div>
+        </nav>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__services">
+                <div class="footer__support white-text fa-solid fa-headset">Support</div>
+                <div id="languageForm" class="footer__localization white-text fa-solid fa-language">Change language</div>
+                <div class="footer__gifts white-text fa-solid fa-gifts">Gifts</div>
+            </div>
+            <div class="footer__contacts">
+                <div class="footer__network">
+                    <a href="#" class="icon footer__instagram fa-brands fa-instagram"></a>
+                    <a href="#" class="icon footer__twitter fa-brands fa-twitter"></a>
+                    <a href="#" class="icon footer__github fa-brands fa-github"></a>
+                </div>
+                <div class="footer__mobile text-size-12"><span class="fa-solid fa-phone phone"></span>Our contact number: +38(050)-011-1652</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/burger.js"></script>
+</body>
+</html>

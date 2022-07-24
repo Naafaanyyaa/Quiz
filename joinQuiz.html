@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Join quiz</title>
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- main text style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-image" src="img/Logo.png">
+        </div>
+        <div class="header__container">
+            <nav class="header__menu">
+                <div class="header__allQuizzes  button"> <a href="#">All quizzes</a></div>
+                <div class="header__userQuizzes button"> <a href="#">My quizzes</a></div>
+                <div class="header__collection  button"> <a href="#">My collection</a></div>
+                <div class="header__friends     button"> <a href="#">Friends</a></div>
+            </nav>
+        </div>
+        <div class="header__profile">
+            <div class="header__search-box">
+                <input type="text" placeholder="search...">
+                <a href="#" class="header__icon fa-solid fa-magnifying-glass"></a>
+            </div>
+            <div class="header__user">
+                <a class="header__user-profile" href="#">
+                    <div class="header__image-container">
+                        <img class="header__user-image" src="img/users-vector-icon-png_260862.jpg">
+                    </div>
+                    <div class="header__user-name"><p class="header__nickname">ZNK33</p></div>
+                </a>
+            </div>
+            <div class="header__menu-icon">
+                <i class="fa-solid fa-bars text-size-20"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="main">
+        <div class="main__container">
+            <div class="main__central-page">
+                <div class="main__central-container">
+                    <form method="get" class="digit-group main__input-container" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+                        <input class="main__join-input" id="digit-1" name="digit-1" data-next="digit-2" type="text" maxlength=1/>    <!--onkeyup='moveNextToInputField[1]' -->
+                        <input class="main__join-input" id="digit-2" name="digit-2" data-previous="digit-1" data-next="digit-3" type="text" maxlength=1/>    <!--onkeyup='moveNextToInputField[2]' -->
+                        <input class="main__join-input" id="digit-3" name="digit-3" data-previous="digit-2" data-next="digit-4" type="text" maxlength=1/>    <!--onkeyup='moveNextToInputField[3]' -->
+                        <input class="main__join-input" id="digit-4" name="digit-4" data-previous="digit-3" type="text" maxlength=1/>    <!--onkeyup='moveNextToInputField[4]' -->
+                    </form>
+                   <span class="yellow-text text-size-32 cursive">Join the fun!</span>
+                   <span class="text-size-18 cursive">Type your code here.</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__container">
+            
+            <div class="footer__services">
+                <div class="footer__support white-text fa-solid fa-headset">Support</div>
+                <div id="languageForm" class="footer__localization white-text fa-solid fa-language">Change language</div>
+                <div class="footer__gifts white-text fa-solid fa-gifts">Gifts</div>
+            </div>
+            <div class="footer__contacts">
+                <div class="footer__network">
+                    <a href="#" class="icon footer__instagram fa-brands fa-instagram"></a>
+                    <a href="#" class="icon footer__twitter fa-brands fa-twitter"></a>
+                    <a href="#" class="icon footer__github fa-brands fa-github"></a>
+                </div>
+                <div class="footer__mobile text-size-12"><span class="fa-solid fa-phone phone"></span>Our contact number: +38(050)-011-1652</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/joinQuiz.js"></script>
+</body>
+</html>
