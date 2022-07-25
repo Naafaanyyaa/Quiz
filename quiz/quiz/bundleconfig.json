@@ -1,0 +1,13 @@
+[
+  {
+    "outputFileName": "wwwroot/js/scripts.js",
+    "inputFiles": [
+      "wwwroot/js/slick.min.js",
+      "wwwroot/js/language.js",
+      "wwwroot/js/slider.js",
+      "wwwroot/js/joinQuiz.js",
+      "wwwroot/js/drag&drop.js",
+      "wwwroot/js/burger.js"
+    ]
+  }
+]

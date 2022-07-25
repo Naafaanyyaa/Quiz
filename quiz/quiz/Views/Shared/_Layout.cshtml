@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  @await Html.PartialAsync("MetatagsPartial")
+  @await Html.PartialAsync("CssPartial")
+  @await Html.PartialAsync("FontsPartial")
+  @await Html.PartialAsync("JQueryPartial")
+</head>
+
+<body>
+    <header class="header">
+        @await Html.PartialAsync("HeaderPartial")
+    </header>
+
+    <main class="main">
+        <div class="main__container"> 
+            @RenderBody()
+        </div>
+    </main>
+
+
+    <!-- burger -->
+    @await Html.PartialAsync("BurgerPartial")
+
+    <footer class="footer">
+        @await Html.PartialAsync("FooterPartial")
+    </footer>
+
+    <!-- window for changing language -->
+    
+    @await Html.PartialAsync("LanguageChangePartial")
+
+    @await Html.PartialAsync("ScriptsPartial")
+
+</body>
+</html>
