@@ -2201,7 +2201,9 @@ readers do not read off random characters that represent icons */
   content: "\f52a"; }
 
 .fa-door-open::before {
-  content: "\f52b"; }
+  content: "\f52b"; 
+  color: #ad2710;
+  margin-right: 10px;}
 
 .fa-dove::before {
   content: "\f4ba"; }
@@ -2834,7 +2836,9 @@ readers do not read off random characters that represent icons */
   content: "\e4f3"; }
 
 .fa-floppy-disk::before {
-  content: "\f0c7"; }
+  content: "\f0c7"; 
+  margin-right: 10px;
+  color: #2ad108;}
 
 .fa-save::before {
   content: "\f0c7"; }
@@ -4558,7 +4562,9 @@ readers do not read off random characters that represent icons */
   content: "\e560"; }
 
 .fa-plus::before {
-  content: "\2b"; }
+  content: "\2b"; 
+  margin-right: 10px;
+  color: #999999;}
 
 .fa-add::before {
   content: "\2b"; }
