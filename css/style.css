@@ -290,7 +290,7 @@ h2{
 .main__arrows{
   display: flex;
   justify-content: space-between;
-  max-width: 70px;
+  max-width: 80px;
   width: 100%;
   align-items: center;
 }
@@ -299,22 +299,32 @@ h2{
 }
 .main__top-container .slick-arrow.slick-prev{
   left: 0;
-  background: url('../img/sl-arrow_l.svg') 0 0 / 40% no-repeat;
-  background-position:40% 50%;
-  height: 30px;
-  width: 30px;
+  background: url('https://img.icons8.com/material-rounded/24/FFFFFF/chevron-left.png') 0 0 / 40% no-repeat;
+  background-position:50% 50%;
+  height: 35px;
+  width: 35px;
   border: 1px #fff solid;
   border-radius: 50%;
+  transition-duration: 0.25s;
 }
 .main__top-container .slick-arrow.slick-next{
   right: 0;
-  background: url('../img/sl-arrow_r.svg') 0 0 / 40% no-repeat;
-  background-position: 60% 50%;
-  height: 30px;
-  width: 30px;
+  background: url('https://img.icons8.com/material-rounded/24/FFFFFF/chevron-right.png') 0 0 / 40% no-repeat;
+  background-position: 50% 50%;
+  height: 35px;
+  width: 35px;
   border: 1px #fff solid;
   border-radius: 50%;
+
+  transition-duration: 0.25s;
 }
+.main__top-container .slick-arrow.slick-prev:hover{
+  background-color: rgba(121, 168, 168, 0.5);
+}
+.main__top-container .slick-arrow.slick-next:hover{
+  background-color: rgba(121, 168, 168, 0.5);
+}
+
 .slick-slider-left{
   position: absolute;
 }
@@ -334,8 +344,8 @@ h2{
 	height: 10px;
 	background-color: #fff;
 	border-radius: 50%;
+  
 }
-
 .main__slider .slick-dots li.slick-active button{
 	background-color: transparent;
 	border: 1px solid #fff;
@@ -521,14 +531,29 @@ body {
   font-size: 16px;
 }
 
+.footer__support{
+  color: #b6b6ba;
+}
+.footer__localization{
+  color: #b6b6ba;
+}
+.footer__gifts{
+  color: #b6b6ba;
+}
 .footer__mobile{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 25px;
+  color: #b6b6ba;
 }
+.footer__mobile:hover, .footer__mobile:hover .phone{
+  color: #fff;
+}
+
 .phone{
   margin-right: 5px;
+  color: #b6b6ba;
 }
 
 .footer__network{
